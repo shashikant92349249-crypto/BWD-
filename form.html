@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Regestation</title>
+</head>
+<body bgcolor="mistyrose">
+    <center><h1>Blood Donation Regestation</h1></center>
+    <form>
+        <table width="700" cellpading="10">
+            
+
+            <tr>
+                <td> Student Name</td>
+                <td>
+                    <input type="text" size="25" placeholder="First Name">=
+                     <input type="text" size="25" placeholder="Last Name">               
+                </td>
+                
+                
+            </tr>
+
+            <tr>
+                <td>Date Of Birth</td>
+                <td>
+                   <input type="text" size="5" placeholder="Day">=
+                   <input type="text" size="6" placeholder="Month">=
+                   <input type="text" size="6" placeholder="Year">
+                   <i>dd-mm-yyy</i>
+                </td>
+
+                <tr>
+                    <td>Age</td>
+                    <td>
+                        <input type="text" Size="4" placeholder="Age">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                    <input type="radio"  Name="gender" value="male">Male
+                    <input type="radio"Name="gender" value="Female">Female
+                    <input type="radio" name="gender" value="other"> Other
+                </td>
+                </tr>
+
+                <tr>
+                    <td>Blood Group</td>
+                    
+                    <td>
+                        <select name="bloodgroup">
+                            <option>Select Blood Group</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                <td>Mobile Number</td>
+                <td>
+                    <input type="tel" name="Mobile" size="18" placeholder="Enter your Mob No">
+                </td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="email" name="email" placeholder="Enter email">
+                    </td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="address" rows="4" cols="30"
+                    placeholder="Enter your address"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>City</td>
+                <td>
+                    <input type="text" name="city" placeholder="Enter city">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Are you willing to donate blood?</td>
+                <td>
+                    <input type="radio" name="donate" value="yes"> Yes
+                    <input type="radio" name="donate" value="no"> No
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+    
+</body>
+</html>
