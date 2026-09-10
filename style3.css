@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    border: 1px solid black;
+    height: 90vh;
+    font-size: 3cm;
+    column-gap: 2cm;
+    flex-wrap: wrap;
+  
+   
+}
+.box{
+    width: 150px;
+    height: 150px;
+    front-size: 5cm;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+#box1{
+    background-color: hsl(0, 100%, 70%);
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: yellow;
+}
